@@ -176,3 +176,9 @@ Received Import Request.
   path: Assets/bedroom.fbx
   artifactKey: Guid(263fde12ba4864a33ad71ab70c8eb26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/bedroom.fbx using Guid(263fde12ba4864a33ad71ab70c8eb26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3159c1668aa578bbf6e187a1d5c3ff56') in 4.671332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1149.089095 seconds.
+  path: Assets/GhostHouse.unity
+  artifactKey: Guid(3d98060ed3968444396226b8ecb9a380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GhostHouse.unity using Guid(3d98060ed3968444396226b8ecb9a380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc42977d79680cfb7846682497bcf84') in 0.002672 seconds 
