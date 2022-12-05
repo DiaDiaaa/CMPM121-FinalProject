@@ -22,13 +22,13 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _HorizonLineContribution: 0.182
+    - _HorizonLineContribution: 0.241
     - _HorizonLineExponent: 4
     - _SkyGradientExponent: 2.5
     - _SunDiscContribution: 1
     - _SunDiscExponent: 249999.88
     - _SunDiscMultiplier: 2271.9
-    - _SunHaloContribution: 0.587
+    - _SunHaloContribution: 0.085
     - _SunHaloExponent: 50
     - _Title: 0
     - __dirty: 0
