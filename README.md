@@ -14,3 +14,6 @@ You are trapped inside the dorm where all electricity is shut down in the school
   - 
   - 
 - Post-Processing Effect
+
+## Note
+Scene file located in CMPM121_Mystery_Scene/Assest/Scenes/SampleScene
