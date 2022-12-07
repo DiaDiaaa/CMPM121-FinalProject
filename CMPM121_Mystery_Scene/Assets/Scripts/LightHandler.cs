@@ -5,6 +5,10 @@ using UnityEngine;
 public class LightHandler : MonoBehaviour
 {
     public GameObject lightTrigger;
+
+    void Start(){
+        lightTrigger.SetActive(false);
+    }
     void Update(){
         if(Input.GetMouseButtonDown(0)){
             // Debug.Log("left click");
