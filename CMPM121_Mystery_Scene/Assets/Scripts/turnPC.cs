@@ -12,7 +12,7 @@ public class turnPC : MonoBehaviour
         pc_screen.SetActive(false);
         isTurned = false;
     }
-    void OnTriggerEnter (Collider other){
+    void OnTriggerEnter(Collider other){
         Debug.Log("Object entered");
         if(!isTurned){
             pc_screen.SetActive(true);

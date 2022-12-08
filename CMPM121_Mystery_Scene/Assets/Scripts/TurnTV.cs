@@ -14,7 +14,7 @@ public class TurnTV : MonoBehaviour
         screen_light.SetActive(false);
         isTurned = false;
     }
-    void OnTriggerEnter (Collider other){
+    void OnTriggerEnter(Collider other){
         Debug.Log("Object entered");
         if(!isTurned){
             white_screen.SetActive(true);
