@@ -16,25 +16,21 @@ public class TurnTV : MonoBehaviour
     }
     void OnTriggerEnter (Collider other){
         Debug.Log("Object entered");
-        white_screen.SetActive(true);
-        screen_light.SetActive(true);
-        isTurned = true;
-        timeRemain = 5f;
+        if(!isTurned){
+            white_screen.SetActive(true);
+            screen_light.SetActive(true);
+            isTurned = true;
+            timeRemain = 5f;
+        }
     }
 
     void Update(){
         if(isTurned){
             timeRemain -= Time.deltaTime;
             if(timeRemain <= 0f){
-                isTurned = false;
-                timeRemain = 5f;
+                white_screen.SetActive(false);
+                screen_light.SetActive(false);
             }
-        }
-
-        //Debug.Log(isTurned);
-        if(!isTurned){
-            white_screen.SetActive(false);
-            screen_light.SetActive(false);
         }
     }
 }
