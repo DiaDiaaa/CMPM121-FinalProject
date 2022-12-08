@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Global 
+public class Global : MonoBehaviour
 {
-    //public int count = 0;
-    public bool[] stat = new bool[]{false,false,false,false,false};
-    public int count = stat.Count(c => c == true);
+    public static int count = 0;
+    //public bool[] stat = new bool[]{false,false,false,false,false};
+    //public int count = stat.Count(c => c == true);
 }

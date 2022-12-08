@@ -5,7 +5,7 @@ using UnityEngine;
 public class turnPC : MonoBehaviour
 {
     public GameObject pc_screen;
-    public Global global;
+    public AudioSource news;
     public bool isTurned;
     public float timeRemain;
 
@@ -17,11 +17,11 @@ public class turnPC : MonoBehaviour
         Debug.Log("Object entered");
         if(!isTurned){
             pc_screen.SetActive(true);
+            news.Play();
             isTurned = true;
-            global.stat[0] = true;
-            //global.count = global.count + 1;
-            Debug.Log("counter");
-            Debug.Log(global.count);
+            Global.count += 1;
+            //Debug.Log("counter");
+            //Debug.Log(Global.count);
         }
     }
 }
