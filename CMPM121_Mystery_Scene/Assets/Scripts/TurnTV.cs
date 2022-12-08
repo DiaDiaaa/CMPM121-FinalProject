@@ -6,6 +6,7 @@ public class TurnTV : MonoBehaviour
 {
     public GameObject white_screen;
     public GameObject screen_light;
+    public Global global;
     public bool isTurned;
     public float timeRemain;
 
@@ -20,6 +21,10 @@ public class TurnTV : MonoBehaviour
             white_screen.SetActive(true);
             screen_light.SetActive(true);
             isTurned = true;
+            //global.count = global.count + 1;
+            global.stat[1] = true;
+            Debug.Log("counter");
+            Debug.Log(global.count);
             timeRemain = 5f;
         }
     }
